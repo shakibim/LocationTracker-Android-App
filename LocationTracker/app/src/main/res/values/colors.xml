@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue1">#25375E</color>
+    <color name="blue_nav">#162137</color>
+    <color name="blue_light">#E9ECF4</color>
+    <color name="blue_lighter">#F4F6FB</color>
+    <color name="olive">#4DB36F</color>
+
+    <!-- Navigation Bar -->
+    <color name="bottom_nav_background">#1C2943</color>
+    <color name="bottom_nav_indicator">#3B4A70</color>
+    <color name="bottom_nav_active">#FFFFFF</color>
+    <color name="bottom_nav_inactive">#B6BFD1</color>
+
+    <color name="md_theme_light_primary">#1E88E5</color> <!-- Blue -->
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_secondary">#03DAC6</color> <!-- Teal -->
+    <color name="md_theme_light_onSecondary">#000000</color>
+
+    <!-- Backgrounds -->
+    <color name="md_theme_light_background">#FFFFFF</color> <!-- Main background -->
+    <color name="md_theme_light_onBackground">#1C1B1F</color> <!-- Text on background -->
+
+    <!-- Surfaces / cards -->
+    <color name="md_theme_light_surface">#F2F2F2</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+
+    <!-- Error -->
+    <color name="md_theme_light_error">#B00020</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+
+    <!-- Optional: accents for track and thumb of switch -->
+    <color name="md_theme_light_primaryContainer">#BBDEFB</color>
+    <color name="md_theme_light_secondaryContainer">#B2DFDB</color>
+</resources>

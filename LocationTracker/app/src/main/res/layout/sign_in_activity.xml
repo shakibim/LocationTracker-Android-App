@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/blue1">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Email -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailInputLayout"
+        style="@style/Widget.Material3.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        app:boxBackgroundMode="filled"
+        app:boxBackgroundColor="@android:color/white"
+        app:boxCornerRadiusTopStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:hintTextColor="@color/blue1"
+        app:boxStrokeColor="@color/olive"
+        app:startIconDrawable="@drawable/ic_email"
+        app:startIconTint="@color/blue1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:background="@color/white"
+            android:textColor="@android:color/black"
+            android:minHeight="56dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordInputLayout"
+        style="@style/Widget.Material3.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        app:boxBackgroundMode="filled"
+        app:boxBackgroundColor="@android:color/white"
+        app:hintTextColor="@color/blue1"
+        app:boxStrokeColor="@color/olive"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:startIconTint="@color/blue1"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/blue1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:inputType="textPassword"
+            android:minHeight="56dp"
+
+            android:textColor="@android:color/black"
+            android:background="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Sign In Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signinButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="15dp"
+        app:cornerRadius="30dp"
+        app:backgroundTint="#4DB36F" />
+
+    <!-- Go Without Sign In Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Go Without Sign In"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="15dp"
+        app:cornerRadius="30dp"
+        app:backgroundTint="#4DB36F" />
+
+    <!-- Register Message -->
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Don't have an account?"
+        android:textColor="@color/white" />
+
+    <!-- SignUp Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="15dp"
+        app:cornerRadius="30dp"
+        app:backgroundTint="#4DB36F" />
+
+</LinearLayout>
