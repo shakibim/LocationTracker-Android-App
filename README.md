@@ -1,39 +1,46 @@
-### Location Tracker App
+# Location Tracker App
 
-Location Tracker is a simple Android application reads and saves a user’s location on the device. The app works offline and stores location data locally using SQLite. Users can sign up, sign in, and view their location history.
+**Location Tracker** is a simple Android application that records and saves a user’s location on the device. The app works offline and saves location data locally using SQLite database. Users can sign up, sign in, and view their location history.  
 
-#### Key Features
+---
 
-1. Tracks user location automatically when swich is turned on  
-2. Saves location (lattitude and longitude) every five minutes with timestamp(date and time) and shows in a toast message  
-3. Works offline (no internet required) to save data  
-4. User authentication (Sign Up & Sign In)  
-5. Location history stored locally  
-6. Shows location history in a list  
-7. Start and stop location tracking anytime  
-8. Logged-in user session saved using SharedPreferences  
+## Key Features
 
-#### Technologies Used
+- Automatically tracks user location when the switch is turned on  
+- Saves location (latitude & longitude) every five minutes with timestamp (date & time) and shows a toast notification  
+- Works offline (no internet required)  
+- User authentication (Sign Up & Sign In)  
+- Location history stored locally  
+- Displays location history in a list  
+- Start and stop location tracking anytime  
+- Logged-in user session saved using SharedPreferences  
 
-- IDE: Android Studio  
-- Programming Langauge: Java  
-- UI: XML  
-- Database: SQLite Database – for storing users and location data  
-- SharedPreferences – for login session management  
-- Material Components (Material 3) – for modern UI design  
-- Location API (Android Location Services) – for getting GPS location  
+---
 
-#### Libraries & APIs
+## Technologies Used
 
-1. com.google.android.material – Material3 Design UI components  
-2. Android Location Services (GPS) – Get user’s current location  
-3. SQLiteOpenHelper – Saves user and location data locally  
-4. OpenStreetMap (OSMDroid) – Shows map and location markers  
-5. Nominatim API – Reverse geocode the latitude and the longitude (Convert latitude & longitude to location name)  
-6. Open-Meteo API – Fetch current weather information  
+- **IDE:** Android Studio  
+- **Programming Language:** Java  
+- **UI:** XML  
+- **Database:** SQLite – for storing users and location data  
+- **SharedPreferences:** for login session management  
+- **Material Components (Material 3):** for modern UI design  
+- **Android Location Services (GPS):** for retrieving user location  
 
-#### ScreenShots
+---
 
+## Libraries & APIs
+
+1. **com.google.android.material** – Material3 UI components  
+2. **Android Location Services (GPS)** – Get current location  
+3. **SQLiteOpenHelper** – Saves user and location data locally  
+4. **OpenStreetMap (OSMDroid)** – Display map and location markers  
+5. **Nominatim API** – Reverse geocoding (convert latitude & longitude to location name)  
+6. **Open-Meteo API** – Fetch current weather information  
+
+---
+
+## Screenshots
 <table align="center" cellpadding="10">
   <tr>
     <td align="center">
@@ -65,6 +72,10 @@ Location Tracker is a simple Android application reads and saves a user’s loca
   </tr>
   <tr>
     <td align="center">
+      <img src="https://github.com/user-attachments/assets/94329726-b289-4fe7-b3eb-fad7f517bff4" width="250"/><br/>
+      <b>Home Screen (Alt)</b>
+    </td>
+    <td align="center">
       <img src="https://github.com/user-attachments/assets/c71629e7-c1bb-44d8-981b-2ddf33748037" width="250"/><br/>
       <b>Location History</b>
     </td>
@@ -72,23 +83,25 @@ Location Tracker is a simple Android application reads and saves a user’s loca
       <img src="https://github.com/user-attachments/assets/72a54040-d431-4f50-8713-ab3290480531" width="250"/><br/>
       <b>View Details</b>
     </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e88b1f35-51f4-4108-a7cd-dceec200384f" width="250"/><br/>
+      <b>View Details (Alt)</b>
+    </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/04f5872b-9159-4f50-91f7-cf3f4eef85cb" width="250"/><br/>
       <b>Profile</b>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/73f84c01-6eeb-4c1f-8a83-44a3fabb2c16" width="250"/><br/>
       <b>Profile (Alt)</b>
     </td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
+---
 
+## Developed by
 
-#### Devloped by
-
-SK. MD. SHAKIB IMRAN
+**SK. MD. SHAKIB IMRAN**
