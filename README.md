@@ -22,7 +22,7 @@
 - **IDE:** Android Studio  
 - **Programming Language:** Java  
 - **UI:** XML  
-- **Database:** SQLite – for storing users and location data  
+- **Database:** SQLite for storing users and location data  
 - **SharedPreferences:** for login session management  
 - **Material Components (Material 3):** for modern UI design  
 - **Android Location Services (GPS):** for retrieving user location  
